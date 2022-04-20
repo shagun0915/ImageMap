@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ImageMap</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <h1>DISNEY ENCHANTED</h1>
+    <p>Enchanted is a 2007 American live-action/animated musical fantasy romantic comedy film directed by Kevin Lima and written by Bill Kelly. The film stars Amy Adams, Patrick Dempsey, James Marsden, Timothy Spall, Idina Menzel, Rachel Covey, and Susan
+        Sarandon, and focuses on an archetypal Disney Princess-to-be who is forced from her animated world into the live-action world of New York City.</p>
+    <p>Banished by an evil queen, a princess (Amy Adams) from a fairy-tale world lands in modern Manhattan, where music, magic and "happily ever after" are sorely lacking.</p>
+    <div>
+        <h2>Click on any character's face!</h2>
+        <img src="imgs/poster.jpeg" usemap="#names" height="350px" />
+
+        <map name="names">
+        <area shape = "circle" coords = "120, 40, 35" href = "narissa.html" target="_blank" onclick = "show('Queen Narissa')" />
+
+        <area shape = "circle" coords = "67, 207, 12" href = "edward.html" target="_blank" onclick = "show('Prince Edward')" />
+
+        <area shape = "circle" coords = "118, 202, 18" href = "giselle.html" target="_blank" onclick = "show('Giselle')" />
+
+        <area shape = "circle" coords = "170, 207, 12" href = "robert.html" target="_blank" onclick = "show('Robert Philip')" />
+    </map>
+        <h2>You chose: </h2>
+        <form name="characters">
+            <input type="text" name="res" size="25px" />
+        </form>
+    </div>
+</body>
+
+</html>
